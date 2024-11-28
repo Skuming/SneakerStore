@@ -3,7 +3,17 @@
 }
 
 body{
-    background-color: blueviolet;
+    /* background:
+    linear-gradient(
+      45deg,
+      #4158d0 0%,
+      #4158d0 40%,
+      #c850c0 40%,
+      #c850c0 90%,
+      #ffcc70 90%,
+      #ffcc70 100%
+    ); */
+    background: linear-gradient(to right, #ff0000, #0000ff);
 }
 
 .picture{
@@ -15,7 +25,30 @@ body{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: #00FFFF;
+    background: linear-gradient(to right, #00FFFF, #0000ff);
     font-size: 58px;
     font-weight: 400;
+}
+
+.discription{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+.discription_main{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+.but{
+    border-radius: 20%;
+    padding: 5px;
+    margin: 10px 0 0 10px;
+    background-color: black;
+    color: white;
+
 }
